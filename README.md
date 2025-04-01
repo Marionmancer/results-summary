@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [See solution](https://www.frontendmentor.io/solutions/order-summary-using-css-flexbox-YPO12Iq4oT)
-- Live Site URL: [See live site](https://marionmancer.github.io/order-summary/)
+- Solution URL: [See solution](https://www.frontendmentor.io/solutions/results-summary-using-css-flexbox-and-grid-iygvgt5F7v)
+- Live Site URL: [See live site](https://marionmancer.github.io/results-summary/)
 
 ## My process
 
