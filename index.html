@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div id="main-container">
+        <div id="left-container">
+          <h1>Your Result</h1>
+          <div id="result-container">
+            <p>76</p>
+            <p>of 100</p>
+          </div>
+        
+          <h1 id="result-description">Great</h1>
+          
+          <p id="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        
+        <div id="right-container">
+          <h1 class="rightside-dashboard">Summary</h1>
+          
+          <ul id="summary-list">
+            <li id="reaction" class="rightside-dashboard">
+              <div>Reaction</div>
+              <div class="score">80</div> 
+              <div class="max-score">/ 100</div>
+            </li>
+            <li id="memory" class="rightside-dashboard">
+              <div>Memory</div>
+              <div class="score">92</div> 
+              <div class="max-score">/ 100</div>
+            </li>
+            <li id="verbal" class="rightside-dashboard">
+              <div>Verbal</div>
+              <div class="score">61</div> 
+              <div class="max-score">/ 100</div>
+            </li>
+            <li id="visual" class="rightside-dashboard">
+              <div>Visual</div>
+              <div class="score">72</div> 
+              <div class="max-score">/ 100</div>
+            </li>        
+          </ul>
+        
+          <div id="continue-button" class="rightside-dashboard">
+            Continue
+          </div>
+        </div>
+    </div>
+  </main>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kamil Szamajda</a>.
+    </div>
+  </footer>
+  
+</body>
+</html>
